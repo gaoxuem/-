@@ -15,7 +15,7 @@
             padding: 0;
         }
         body{
-          
+
            font-size: 100px;
            width: 100%;
            text-align: center;
@@ -25,11 +25,11 @@
         }
         .bo{
             width: 100%;
-            background:url(./3M/repeating_meshed_grid.png); 
+            background:url(./3M/repeating_meshed_grid.png);
         }
         #app{
             width: 3rem;
-           
+
             /* height: 1rem; */
             /* background-color: red; */
             margin: 0 auto;
@@ -42,7 +42,7 @@
         #app>div>img{
             width: 100%;
             height: 1.32rem;
-            
+
         }
         p{
             width: 100%;
@@ -82,7 +82,7 @@
             position: absolute;
             left: .5rem;
             display: flex;
-            
+
         }
         footer>div>div>p{
             text-align: left;
@@ -97,11 +97,11 @@
     <div class="bo">
 <div id="app">
 <div class="app_div">
-    <img src="./3m/Per_Banner.jpg" alt="">
+    <img src="./3M/Per_Banner.jpg" alt="">
 </div>
 <div class="div">
     <p >证书编号：<input type="text" v-model="msg"></p>
-   
+
     <img src="./3M/Per_submit.jpg" alt="" @click="fn">
     <img src="./3M/Per_rest.jpg" alt="" @click="fo">
    </div>
@@ -117,7 +117,7 @@
     <img class="img" src="https://www.3mtech.cn/cncpps/cpcertificate/resources/images/head/GradientBar.svg" alt="">
 
 <footer>
-  <div> 
+  <div>
       <img style="text-align: left;" src="./3M/Logo_mobile_footer.jpg" alt="">
     <div>
         <p>法律声明 | 隐私政策</p>
@@ -152,7 +152,7 @@
        },
        methods: {
            fn(){
-               
+
               if(this.msg == ""){
                 alert("请输入证书编号");
               }else if(this.msg !="6muwAB202108042014"){
@@ -166,6 +166,6 @@
             this.condition=false
            }
        },
-      
+
     })
 </script>
